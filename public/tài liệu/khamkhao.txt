@@ -14,6 +14,11 @@
 	+ đăng ký nhận học sinh
 	+ cập nhật thông tin + file ảnh hồ sơ
 
-1: Database
-	
+1: Database 
+	use: {id, name, slug, phone, class, classify (phân loại : phụ huynh, gia sư), address, password, facebook, fileCV, school, schoolTutor} tài khoản
+	Register_tutor : {id, slug, studentName, class, schedule (lịch học), request (yêu cầu), price, address, status } đăng ký tìm gia sư
+	blog: {id, slug, title, image, blogDetail, tag, status} bảng bài viết
+	support: {id, slug, name, phone} nhận hỗ trợ online
+	category : {id, slug, icon, status}
+	testClass: {id, slug, class, fileTest} test chất lượng học viên
 
