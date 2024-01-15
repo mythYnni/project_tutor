@@ -12,13 +12,19 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('users', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->rememberToken();
-            $table->timestamps();
+            $table->bigIncrements('id');
+            $table->string('slugUser')->nullable(false)->unique(); // mã tài khoản
+            $table->string('fullName')->nullable(false);
+            $table->string('phone')->nullable(false)->unique();
+            $table->string('address')->nullable();
+            $table->string('class')->nullable();
+            $table->string('classify ')->nullable(false);
+            $table->string('school')->nullable();
+            $table->string('schoolTutor')->nullable();
+            $table->string('facebook')->nullable();
+            $table->string('sex')->nullable(false);
+            $table->string('password')->nullable(false); // mật khẩu
+            $table->string('fileCV')->nullable();
         });
     }
 

@@ -16,7 +16,8 @@
 
 1: Database 
 	use: {id, name, slug, phone, class, classify (phân loại : phụ huynh, gia sư), address, password, facebook, fileCV, school, schoolTutor} tài khoản
-	Register_tutor : {id, slug, studentName, class, schedule (lịch học), request (yêu cầu), price, address, status } đăng ký tìm gia sư
+	Register_tutor : {id, slug, studentName, class, schedule (lịch học), request (yêu cầu), price, address, status, idTeacher} đăng ký tìm gia sư
+	listClass: {id, Register_tutor_id, use_id}
 	blog: {id, slug, title, image, blogDetail, tag, status} bảng bài viết
 	support: {id, slug, name, phone} nhận hỗ trợ online
 	category : {id, slug, icon, status}
