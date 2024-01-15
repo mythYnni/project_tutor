@@ -1,0 +1,19 @@
+ý tưởng xây dựng dịch vụ gia sư
+- chung
+	+ bài viết
+	+ liên hệ
+
+- giao diện phụ huynh
+ 	+ đăng nhập/ đăng ký
+	+ đăng ký hỗ trợ tìm gia sư
+	+ đăng ký làm bài test cho hs
+	+ đăng liên hệ online
+- giao diện gia sư
+	+ đăng ký/ đăng nhập
+	+ danh sách học sinh tìm gia sư
+	+ đăng ký nhận học sinh
+	+ cập nhật thông tin + file ảnh hồ sơ
+
+1: Database
+	
+
